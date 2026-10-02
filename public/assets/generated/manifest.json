@@ -1,0 +1,32 @@
+{
+ "files": [
+  "music/rss_ader.ogg",
+  "music/rss_boss.ogg",
+  "music/rss_finale.ogg",
+  "music/rss_labor.ogg",
+  "music/rss_rohr.ogg",
+  "music/rss_rosttal.ogg",
+  "music/rss_stadt.ogg",
+  "music/rss_wald.ogg",
+  "sfx/block.ogg",
+  "sfx/block.v2.ogg",
+  "sfx/body_thud.ogg",
+  "sfx/body_thud.v2.ogg",
+  "sfx/break.ogg",
+  "sfx/break.v2.ogg",
+  "sfx/clash.ogg",
+  "sfx/clash.v2.ogg",
+  "sfx/hit_blade.ogg",
+  "sfx/hit_blade.v2.ogg",
+  "sfx/hit_blade.v3.ogg",
+  "sfx/land.ogg",
+  "sfx/land.v2.ogg",
+  "sfx/land.v3.ogg",
+  "sfx/parry.ogg",
+  "sfx/parry.v2.ogg",
+  "sfx/swing_sword.ogg",
+  "sfx/swing_sword.v2.ogg",
+  "sfx/swing_sword.v3.ogg"
+ ],
+ "generatedAt": "2026-10-02T14:23:00"
+}

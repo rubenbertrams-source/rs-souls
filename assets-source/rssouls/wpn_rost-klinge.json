@@ -1,0 +1,9 @@
+{
+ "prompt": "a crude rusty sword made of scrap metal with a wrapped leather grip, lying perfectly horizontal, handle on the left and tip pointing right, side view, 2D game item, hand painted with clean dark outlines, isolated on plain white background, no text",
+ "seed": 7,
+ "size": [
+  1024,
+  512
+ ],
+ "model": "zimage"
+}

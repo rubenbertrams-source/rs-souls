@@ -1,0 +1,314 @@
+{
+ "far_ader": [
+  1792,
+  768
+ ],
+ "far_labor": [
+  1792,
+  768
+ ],
+ "far_pumpe": [
+  1792,
+  768
+ ],
+ "far_rohr": [
+  1792,
+  768
+ ],
+ "far_rosttal": [
+  1792,
+  768
+ ],
+ "far_schanze": [
+  1792,
+  768
+ ],
+ "far_stadt": [
+  1792,
+  768
+ ],
+ "far_unter": [
+  1792,
+  768
+ ],
+ "far_wald": [
+  1792,
+  768
+ ],
+ "mid_pumpe": [
+  1792,
+  425
+ ],
+ "mid_rohr": [
+  1792,
+  425
+ ],
+ "mid_rosttal": [
+  1792,
+  404
+ ],
+ "npc_brina": [
+  209,
+  320
+ ],
+ "npc_juno": [
+  180,
+  384
+ ],
+ "npc_korro": [
+  192,
+  94
+ ],
+ "npc_vex": [
+  214,
+  384
+ ],
+ "npc_yara": [
+  146,
+  384
+ ],
+ "obj_ampulle": [
+  67,
+  128
+ ],
+ "obj_glutzelle": [
+  61,
+  128
+ ],
+ "obj_kollektor": [
+  119,
+  384
+ ],
+ "obj_schlacke": [
+  128,
+  106
+ ],
+ "spr_assistent": [
+  264,
+  512
+ ],
+ "spr_assistent_tell": [
+  512,
+  386
+ ],
+ "spr_doktor-asche": [
+  209,
+  512
+ ],
+ "spr_doktor-asche_tell": [
+  239,
+  512
+ ],
+ "spr_exponat": [
+  334,
+  512
+ ],
+ "spr_exponat_tell": [
+  512,
+  401
+ ],
+ "spr_garde": [
+  351,
+  512
+ ],
+ "spr_garde_tell": [
+  305,
+  512
+ ],
+ "spr_glut-wild": [
+  512,
+  325
+ ],
+ "spr_glut-wild_tell": [
+  512,
+  265
+ ],
+ "spr_hero": [
+  237,
+  512
+ ],
+ "spr_hero_attack": [
+  498,
+  512
+ ],
+ "spr_hero_block": [
+  357,
+  512
+ ],
+ "spr_hero_idle": [
+  234,
+  512
+ ],
+ "spr_hero_run": [
+  451,
+  512
+ ],
+ "spr_kommandantin-riss": [
+  208,
+  512
+ ],
+ "spr_kommandantin-riss_tell": [
+  499,
+  512
+ ],
+ "spr_nebelwerk-wache": [
+  271,
+  512
+ ],
+ "spr_nebelwerk-wache_tell": [
+  488,
+  512
+ ],
+ "spr_oel-leviathan": [
+  557,
+  640
+ ],
+ "spr_ratte": [
+  384,
+  205
+ ],
+ "spr_ratte_tell": [
+  320,
+  170
+ ],
+ "spr_riot-kommandeur": [
+  328,
+  512
+ ],
+ "spr_riot-kommandeur_tell": [
+  457,
+  512
+ ],
+ "spr_rohr-kriecher": [
+  384,
+  269
+ ],
+ "spr_rohr-kriecher_tell": [
+  320,
+  153
+ ],
+ "spr_rost-spinner": [
+  512,
+  257
+ ],
+ "spr_rost-spinner_tell": [
+  512,
+  380
+ ],
+ "spr_russ-kriecher": [
+  384,
+  280
+ ],
+ "spr_schildtraeger": [
+  347,
+  512
+ ],
+ "spr_schildtraeger_tell": [
+  488,
+  512
+ ],
+ "spr_schlund-waechter": [
+  370,
+  640
+ ],
+ "spr_schlund-waechter_tell": [
+  578,
+  640
+ ],
+ "spr_schrott-drohne": [
+  344,
+  512
+ ],
+ "spr_schrott-drohne_tell": [
+  448,
+  512
+ ],
+ "spr_schrott-golem": [
+  524,
+  640
+ ],
+ "spr_schrott-golem_tell": [
+  573,
+  640
+ ],
+ "spr_schwarzkittel": [
+  364,
+  640
+ ],
+ "spr_schwarzkittel_tell": [
+  508,
+  640
+ ],
+ "spr_sensor-drohne": [
+  320,
+  166
+ ],
+ "spr_sezier-golem": [
+  361,
+  640
+ ],
+ "spr_sezier-golem_tell": [
+  615,
+  640
+ ],
+ "spr_teerbinder": [
+  440,
+  512
+ ],
+ "spr_teerbinder_tell": [
+  448,
+  512
+ ],
+ "spr_verwerter-konstrukt": [
+  422,
+  640
+ ],
+ "spr_verwerter-konstrukt_tell": [
+  395,
+  640
+ ],
+ "spr_vorarbeiter": [
+  360,
+  512
+ ],
+ "spr_vorarbeiter_tell": [
+  325,
+  512
+ ],
+ "tile_ader": [
+  256,
+  256
+ ],
+ "tile_labor": [
+  256,
+  256
+ ],
+ "tile_rohr": [
+  256,
+  256
+ ],
+ "tile_rosttal": [
+  256,
+  256
+ ],
+ "tile_stadt": [
+  256,
+  256
+ ],
+ "tile_wald": [
+  256,
+  256
+ ],
+ "wpn_lumen-dolch": [
+  192,
+  37
+ ],
+ "wpn_rost-klinge": [
+  256,
+  63
+ ],
+ "wpn_verwerter-hammer": [
+  256,
+  88
+ ]
+}

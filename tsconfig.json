@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "types": ["vite/client", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@pv/engine": ["packages/engine/src/index.ts"],
+      "@pv/engine/*": ["packages/engine/src/*"],
+      "@pv/game-api": ["packages/game-api/src/index.ts"],
+      "@pv/rssouls": ["games/rssouls/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*", "packages/**/*", "games/**/*", "tests/**/*", "e2e/**/*", "*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

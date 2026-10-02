@@ -1,0 +1,9 @@
+{
+ "prompt": "seamless tileable texture, flat front view of mossy dark forest soil with roots and small stones, hand painted, even lighting, game texture",
+ "seed": 7,
+ "size": [
+  512,
+  512
+ ],
+ "model": "zimage"
+}

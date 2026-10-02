@@ -1,0 +1,7 @@
+requests
+pillow
+numpy
+trimesh
+rembg[cpu]
+fast-simplification
+soundfile

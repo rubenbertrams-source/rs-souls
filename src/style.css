@@ -1,0 +1,28 @@
+:root { color-scheme: dark; }
+html, body { margin: 0; height: 100%; background: #0b0908; color: #e9e2d4; overflow: hidden;
+  font: 16px/1.35 Georgia, 'Times New Roman', serif; }
+#stage { position: fixed; inset: 0; }
+#gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+#game-ui, #ui { position: absolute; inset: 0; pointer-events: none; }
+#ui > * { pointer-events: auto; }
+.screen { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  background: radial-gradient(ellipse at center, #1d1712 0%, #0b0908 75%); }
+.screen.dim { background: rgba(8, 6, 5, 0.72); }
+.logo { font-size: 64px; letter-spacing: .12em; margin: 0 0 4px; color: #e8c34a; text-shadow: 0 2px 0 #4a2c12; }
+.tag { max-width: 560px; text-align: center; opacity: .8; margin: 0 16px 24px; }
+.err { color: #ff6b5a; }
+.pv-menu { min-width: 360px; max-width: 90vw; }
+.pv-menu-title { text-align: center; color: #e8c34a; letter-spacing: .1em; }
+.pv-menu ul { list-style: none; margin: 0; padding: 0; max-height: 70vh; overflow: auto; }
+.pv-menu-item { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 10px 16px; margin: 4px 0; border: 1px solid #3a2e24; background: #17120e; cursor: pointer; }
+.pv-menu-item.focus { border-color: #e8c34a; background: #2a2016; }
+.pv-menu-item.disabled { opacity: .4; }
+.pv-menu-item .hint { flex-basis: 100%; font-size: 13px; opacity: .7; }
+.pv-menu-item .value { display: flex; align-items: center; gap: 8px; }
+.pv-menu-item .arrow { background: none; border: 1px solid #5a4a3a; color: inherit; width: 26px; height: 26px; cursor: pointer; }
+.chev::before { content: '‹'; } .chev.r::before { content: '›'; }
+.controls { border-collapse: collapse; margin: 0 auto 16px; font-size: 14px; }
+.controls td, .controls th { padding: 4px 10px; border-bottom: 1px solid #2a2016; text-align: left; }
+.toast { position: absolute; left: 50%; bottom: 40px; transform: translateX(-50%); background: #17120e; border: 1px solid #e8c34a;
+  padding: 8px 16px; pointer-events: none; }

@@ -1,0 +1,9 @@
+{
+ "prompt": "2D side scrolling action game character sprite, strict side view facing right, a nameless lean survivor in a tattered long grey coat, hood and soot-stained scarf over the face, small brass goggles, leather boots, belt with brass buckle, standing upright in a calm ready stance, arms slightly forward, empty hands, dark fantasy industrial, hand painted with clean dark outlines, strong readable silhouette, muted palette, single character, centered, plain white background, no scenery, no text",
+ "seed": 7,
+ "size": [
+  768,
+  1024
+ ],
+ "model": "zimage"
+}

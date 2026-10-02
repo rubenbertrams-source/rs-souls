@@ -1,0 +1,9 @@
+{
+ "prompt": "a small broken hovering robot drone with one cracked lens and a softly glowing green energy cell in its body, patched together, cute but battered, 2D game sprite, side view facing right, hand painted with clean dark outlines, single object, centered, plain white background, no text",
+ "seed": 7,
+ "size": [
+  1024,
+  1024
+ ],
+ "model": "zimage"
+}

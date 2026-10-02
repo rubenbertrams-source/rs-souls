@@ -1,0 +1,375 @@
+{
+ "size": [
+  768,
+  1024
+ ],
+ "bones": {
+  "root": {
+   "head": [
+    400,
+    520
+   ],
+   "tail": [
+    400,
+    440
+   ],
+   "parent": null
+  },
+  "torso": {
+   "head": [
+    400,
+    505
+   ],
+   "tail": [
+    410,
+    300
+   ],
+   "parent": "root"
+  },
+  "head": {
+   "head": [
+    412,
+    258
+   ],
+   "tail": [
+    420,
+    130
+   ],
+   "parent": "torso"
+  },
+  "arm_r_up": {
+   "head": [
+    268,
+    320
+   ],
+   "tail": [
+    238,
+    430
+   ],
+   "parent": "torso"
+  },
+  "arm_r_lo": {
+   "head": [
+    238,
+    430
+   ],
+   "tail": [
+    243,
+    552
+   ],
+   "parent": "arm_r_up"
+  },
+  "hand_r": {
+   "head": [
+    243,
+    552
+   ],
+   "tail": [
+    244,
+    596
+   ],
+   "parent": "arm_r_lo"
+  },
+  "grip_r": {
+   "head": [
+    244,
+    592
+   ],
+   "tail": [
+    290,
+    632
+   ],
+   "parent": "hand_r"
+  },
+  "arm_l_up": {
+   "head": [
+    506,
+    320
+   ],
+   "tail": [
+    530,
+    432
+   ],
+   "parent": "torso"
+  },
+  "arm_l_lo": {
+   "head": [
+    530,
+    432
+   ],
+   "tail": [
+    548,
+    552
+   ],
+   "parent": "arm_l_up"
+  },
+  "hand_l": {
+   "head": [
+    548,
+    552
+   ],
+   "tail": [
+    550,
+    600
+   ],
+   "parent": "arm_l_lo"
+  },
+  "leg_r_up": {
+   "head": [
+    330,
+    560
+   ],
+   "tail": [
+    272,
+    790
+   ],
+   "parent": "root"
+  },
+  "leg_r_lo": {
+   "head": [
+    272,
+    790
+   ],
+   "tail": [
+    262,
+    945
+   ],
+   "parent": "leg_r_up"
+  },
+  "leg_l_up": {
+   "head": [
+    455,
+    560
+   ],
+   "tail": [
+    472,
+    790
+   ],
+   "parent": "root"
+  },
+  "leg_l_lo": {
+   "head": [
+    472,
+    790
+   ],
+   "tail": [
+    492,
+    935
+   ],
+   "parent": "leg_l_up"
+  },
+  "skirt_b": {
+   "head": [
+    350,
+    500
+   ],
+   "tail": [
+    290,
+    830
+   ],
+   "parent": "root"
+  },
+  "skirt_f": {
+   "head": [
+    440,
+    500
+   ],
+   "tail": [
+    500,
+    830
+   ],
+   "parent": "root"
+  }
+ },
+ "parts": [
+  {
+   "id": "hand_l",
+   "file": "parts/hand_l.png",
+   "bbox": [
+    500,
+    548,
+    584,
+    641
+   ],
+   "bone": "hand_l",
+   "z": 0,
+   "tint": 0.72,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "arm_l_lo",
+   "file": "parts/arm_l_lo.png",
+   "bbox": [
+    492,
+    426,
+    584,
+    559
+   ],
+   "bone": "arm_l_lo",
+   "z": 1,
+   "tint": 0.72,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "arm_l_up",
+   "file": "parts/arm_l_up.png",
+   "bbox": [
+    486,
+    286,
+    546,
+    441
+   ],
+   "bone": "arm_l_up",
+   "z": 2,
+   "tint": 0.72,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "leg_l_lo",
+   "file": "parts/leg_l_lo.png",
+   "bbox": [
+    434,
+    760,
+    596,
+    973
+   ],
+   "bone": "leg_l_lo",
+   "z": 3,
+   "tint": 0.85,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "leg_r_lo",
+   "file": "parts/leg_r_lo.png",
+   "bbox": [
+    214,
+    760,
+    327,
+    979
+   ],
+   "bone": "leg_r_lo",
+   "z": 5,
+   "tint": 1.0,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "skirt_b",
+   "file": "parts/skirt_b.png",
+   "bbox": [
+    196,
+    490,
+    423,
+    861
+   ],
+   "bone": "skirt_b",
+   "z": 7,
+   "tint": 1.0,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "skirt_f",
+   "file": "parts/skirt_f.png",
+   "bbox": [
+    402,
+    490,
+    574,
+    861
+   ],
+   "bone": "skirt_f",
+   "z": 8,
+   "tint": 1.0,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "torso",
+   "file": "parts/torso.png",
+   "bbox": [
+    244,
+    205,
+    546,
+    513
+   ],
+   "bone": "torso",
+   "z": 9,
+   "tint": 1.0,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "head",
+   "file": "parts/head.png",
+   "bbox": [
+    322,
+    86,
+    489,
+    265
+   ],
+   "bone": "head",
+   "z": 10,
+   "tint": 1.0,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "arm_r_up",
+   "file": "parts/arm_r_up.png",
+   "bbox": [
+    200,
+    276,
+    311,
+    437
+   ],
+   "bone": "arm_r_up",
+   "z": 11,
+   "tint": 1.0,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "arm_r_lo",
+   "file": "parts/arm_r_lo.png",
+   "bbox": [
+    192,
+    424,
+    297,
+    559
+   ],
+   "bone": "arm_r_lo",
+   "z": 12,
+   "tint": 1.0,
+   "layer": "body",
+   "from": "O"
+  },
+  {
+   "id": "hand_r",
+   "file": "parts/hand_r.png",
+   "bbox": [
+    191,
+    548,
+    301,
+    637
+   ],
+   "bone": "hand_r",
+   "z": 13,
+   "tint": 1.0,
+   "layer": "hand",
+   "from": "O"
+  }
+ ],
+ "frame": {
+  "center": [
+   400,
+   500
+  ],
+  "span": 1320,
+  "px": 384,
+  "ground": 975
+ }
+}

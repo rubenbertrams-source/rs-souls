@@ -1,0 +1,9 @@
+{
+ "prompt": "seamless tileable texture, flat front view of clean dark polished concrete and steel panels with thin cyan light seams, hand painted, even lighting, game texture",
+ "seed": 7,
+ "size": [
+  512,
+  512
+ ],
+ "model": "zimage"
+}

@@ -1,0 +1,9 @@
+{
+ "prompt": "seamless tileable texture, flat front view of rusted corrugated iron sheets and riveted scrap metal plates, dark, grimy, hand painted, even lighting, game texture",
+ "seed": 7,
+ "size": [
+  512,
+  512
+ ],
+ "model": "zimage"
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Runs a tools/assets script with the pipeline venv (lives in $HOME for speed; /mnt/c is slow for venvs).
+VENV="${PV_ASSETS_VENV:-$HOME/.venvs/pv-assets}"
+if [ ! -x "$VENV/bin/python" ]; then
+  echo "venv missing: $VENV – create with: python3 -m venv --without-pip $VENV && $VENV/bin/python get-pip.py && $VENV/bin/pip install -r tools/assets/requirements.txt" >&2
+  exit 1
+fi
+exec "$VENV/bin/python" "$@"

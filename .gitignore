@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vite/
+*.log
+test-results/
+playwright-report/
+__pycache__/
+tools/assets/logs/
+tools/assets/cache/
+*.blend1
+assets-source/rssouls/rig/frames/
+assets-source/rssouls/rig/.alpha-*
